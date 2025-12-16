@@ -1,5 +1,5 @@
-# STAGE 1: Build the application
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# STAGE 1: Build using the .NET 10 SDK
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
 # Copy the .csproj file and restore dependencies
@@ -15,8 +15,8 @@ WORKDIR "/src/MBlazorApp2"
 RUN dotnet build "BlazorApp2.csproj" -c Release -o /app/build
 RUN dotnet publish "BlazorApp2.csproj" -c Release -o /app/publish
 
-# STAGE 2: Run the application
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+# STAGE 2: Run using the .NET 10 Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 

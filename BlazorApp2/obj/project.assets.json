@@ -601,11 +601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julian\\Desktop\\MicrosoftAgent+BlazorUI\\BlazorApp2\\BlazorApp2.csproj",
+      "projectUniqueName": "C:\\Users\\Julian\\Desktop\\MicrosoftAgent+BlazorUI\\MicrosoftAgent-BlazorUI-SampleApplication\\BlazorApp2\\BlazorApp2.csproj",
       "projectName": "BlazorApp2",
-      "projectPath": "C:\\Users\\Julian\\Desktop\\MicrosoftAgent+BlazorUI\\BlazorApp2\\BlazorApp2.csproj",
+      "projectPath": "C:\\Users\\Julian\\Desktop\\MicrosoftAgent+BlazorUI\\MicrosoftAgent-BlazorUI-SampleApplication\\BlazorApp2\\BlazorApp2.csproj",
       "packagesPath": "C:\\Users\\Julian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Julian\\Desktop\\MicrosoftAgent+BlazorUI\\BlazorApp2\\obj\\",
+      "outputPath": "C:\\Users\\Julian\\Desktop\\MicrosoftAgent+BlazorUI\\MicrosoftAgent-BlazorUI-SampleApplication\\BlazorApp2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

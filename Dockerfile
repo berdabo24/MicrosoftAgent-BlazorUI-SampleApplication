@@ -9,7 +9,7 @@ RUN dotnet restore "BlazorApp2/BlazorApp2.csproj"
 
 # Copy the rest of the source code
 COPY . .
-WORKDIR "/src/MBlazorApp2"
+WORKDIR "/src/BlazorApp2"
 
 # Build and Publish the app
 RUN dotnet build "BlazorApp2.csproj" -c Release -o /app/build
